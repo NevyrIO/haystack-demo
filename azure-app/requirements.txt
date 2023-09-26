@@ -1,0 +1,12 @@
+streamlit==1.27.0
+transformers==4.32.1
+torch==2.0.1
+sentencepiece==0.1.95
+sentence_transformers==2.2.2
+tokenizers~=0.13.3
+azure-cli==2.49.0
+azure-ai-ml==1.10.1
+langdetect==1.0.9
+einops==0.6.1
+farm-haystack[opensearch]==1.20.1
+requests_aws4auth==1.2.3
