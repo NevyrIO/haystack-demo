@@ -99,7 +99,7 @@ def get_azure_ai_pipe(_retriever):
     )
     azure_prompt_node = PromptNode(azure_prompt, default_prompt_template=user_prompt)
     pipe = Pipeline()
-    pipe.add_node(component=embedding_retriever, name="retriever", inputs=["Query"])
+    pipe.add_node(component=_retriever, name="retriever", inputs=["Query"])
     pipe.add_node(component=azure_prompt_node, name="prompt_node", inputs=["retriever"])
     return pipe
 
