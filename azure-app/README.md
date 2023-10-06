@@ -22,6 +22,6 @@ Modify the values where indicated with <> in the [createwebapp.sh](./createwebap
 ./createwebappacr.sh 
 ./createappservice.sh
 ./createwebapppush.sh
-# After receiving principle ID - add to next file then run
+# After receiving principal ID - add to next file then run
 ./createsetappidentity.sh
 ```
