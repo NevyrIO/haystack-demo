@@ -17,7 +17,7 @@ docker run --publish 80:80 haystackapp
 ```
 
 ### Deploy to the Azure Web App Service
-Modify the values where indicated with <> in the [createwebapp.sh](./createwebapp.sh) file, then run (in order):
+Modify the values where indicated with <> in the following files, then run (in order):
 ```
 ./createwebappacr.sh 
 ./createappservice.sh
